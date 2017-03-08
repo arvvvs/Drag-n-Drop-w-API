@@ -18,3 +18,4 @@ The only console log statement is printing the response from the server.
 Also I've added a gif showing my use of the web app in screencast.gif
 That and enjoy the festive colors
 
+![screencast](https://cloud.githubusercontent.com/assets/5385234/23720467/c05c2484-040c-11e7-88f6-8afac4b7f751.gif)
