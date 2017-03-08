@@ -1,0 +1,34 @@
+<html>
+<title>Drag n Drop with API update</title>
+
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div style="display:none" class="loading"> 
+    <!--<div class="loading"> -->
+        Loading...
+     <img src="default.gif" height="20px"></img>
+</div>
+<div class="tables">
+    <div class="table" ondrop="drop(event)" ondragover="allowDrop(event)">
+<span class="title">table1</span>
+<div class="row">
+    <span class="id_column">id</span>
+    <span class="album_title_column">Title</span>
+</div>
+</div>
+<div class="table" ondrop="drop(event)" ondragover="allowDrop(event)" >
+<span class="title">table2</span>
+<div class="row">
+    <span class="id_column">id</span>
+    <span class="album_title_column">Title</span>
+</div>
+</div>
+</div>
+</body>
+
+</html>

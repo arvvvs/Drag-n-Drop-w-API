@@ -1,0 +1,47 @@
+.tables{
+   display: flex;
+   justify-content: space-around;
+   align-content: center; 
+   flex-direction: row;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table{
+    width: 40%;
+    margin: 0 0 3em 0;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;        
+    justify-content: flex-start;
+}
+.loading{
+    display: flex;
+    align-self: center;
+   justify-content: center; 
+   background-color: #034f20;
+   color: white;
+   border-radius: 5px;
+}
+.row:nth-child(even){
+    background-color: white;
+}
+.row:nth-child(odd){
+    background-color: #d42426;
+}
+.id_column, .album_title_column{
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: auto;
+}
+.id_column{
+    flex-grow: 1;
+}
+.album_title_column{
+    flex-grow: 3;
+}
